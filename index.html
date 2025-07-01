@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
@@ -6,56 +6,154 @@
   <title>Portofolio Reza Ardana Rohman</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 font-sans">
+<body class="font-sans">
 
   <!-- Hero Section -->
-  <section class="flex flex-col items-center justify-center min-h-screen text-center bg-gradient-to-br from-blue-500 to-indigo-600 text-white">
-    <img src="rezaardanarohman.JPG" alt="Foto Profil" class="w-40 h-40 rounded-full shadow-lg mb-6 border-4 border-white"/>
-    <h1 class="text-5xl font-bold mb-4">Reza Ardana Rohman</h1>
-    <p class="text-xl mb-8">ELECTRICAL ENGINEERING | Embedded & IoT Developer | Robotics Enthusiast</p>
-    <a href="#projects" class="px-8 py-4 bg-white text-blue-700 font-semibold rounded-full hover:bg-gray-200 transition">Lihat Proyek Saya</a>
-  </section>
+  <section class="flex flex-col items-center justify-center min-h-screen text-center bg-gradient-to-tr from-fuchsia-500 via-purple-500 to-blue-500 text-white relative overflow-hidden">
+    <div class="absolute w-72 h-72 bg-white opacity-10 rounded-full -top-10 -left-10 animate-pulse"></div>
+    <div class="absolute w-96 h-96 bg-white opacity-10 rounded-full -bottom-20 -right-20 animate-pulse"></div>
+    <img src="rezaardanarohman.JPG" alt="Foto Profil" class="w-40 h-40 rounded-full shadow-2xl mb-6 border-4 border-white z-10"/>
+    <h1 class="text-5xl font-extrabold mb-4 drop-shadow-xl z-10">Reza Ardana Rohman</h1>
+    <p class="text-2xl mb-8 font-medium z-10">ELECTRICAL ENGINEERING | Embedded System & IoT | Robotics Enthusiast</p>
+    <div class="flex flex-wrap justify-center gap-4 z-10 mb-6">
+      <a href="#projects" class="px-8 py-4 bg-white text-purple-700 font-bold rounded-full hover:bg-gray-200 transition shadow-lg">Lihat Proyek Saya</a>
+      <a href="#about" class="px-8 py-4 bg-white text-purple-700 font-bold rounded-full hover:bg-gray-200 transition shadow-lg">Tentang Saya</a>
+    </div>
 
-  <!-- About Section -->
-  <section id="about" class="py-20 bg-white text-gray-800">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-6">Tentang Saya</h2>
-      <p class="text-lg leading-relaxed">Saya seorang mahasiswa Jurusan TEKNIK ELEKTRO UNIVERSITAS NEGERI SURABAYA Yang aktif sebagai ketua divisi team riset robot seni tari, yang fokus di bidang Embedded Systems, IoT, dan robotika. Saya memiliki pengalaman mengerjakan berbagai proyek mulai dari sensor-based systems hingga komunikasi wireless antar mikrokontroler.</p>
+    <!-- Tombol Navigasi Bagian -->
+    <div class="flex flex-wrap justify-center gap-3 z-10">
+      <a href="#identitas" class="px-5 py-3 bg-white text-purple-700 rounded-full font-semibold hover:bg-gray-200 transition shadow">Identitas Diri</a>
+      <a href="#ringkasan" class="px-5 py-3 bg-white text-purple-700 rounded-full font-semibold hover:bg-gray-200 transition shadow">Ringkasan Profesional</a>
+      <a href="#pendidikan" class="px-5 py-3 bg-white text-purple-700 rounded-full font-semibold hover:bg-gray-200 transition shadow">Pendidikan</a>
+      <a href="#keterampilan" class="px-5 py-3 bg-white text-purple-700 rounded-full font-semibold hover:bg-gray-200 transition shadow">Keterampilan</a>
     </div>
   </section>
 
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-gradient-to-br from-emerald-200 via-lime-200 to-emerald-50 text-gray-800 relative overflow-hidden">
+    <div class="absolute w-64 h-64 bg-white opacity-20 rounded-full top-20 right-20 animate-spin-slow"></div>
+    <div class="max-w-4xl mx-auto text-center relative z-10">
+      <h2 class="text-4xl font-extrabold mb-6 text-emerald-900">Tentang Saya</h2>
+      <p class="text-lg leading-relaxed">Saya seorang mahasiswa Jurusan TEKNIK ELEKTRO UNIVERSITAS NEGERI SURABAYA yang aktif sebagai ketua divisi tim riset robot seni tari, fokus di bidang Embedded Systems, IoT, dan kontrol robotika. Saya memiliki pengalaman mengerjakan berbagai proyek mulai dari sensor-based systems hingga komunikasi wireless antar mikrokontroler.</p>
+    </div>
+  </section>
+
+  <!-- Contoh Sections (Lengkapi sesuai kebutuhanmu) -->
+  <section id="identitas" class="py-20 bg-white text-gray-800">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4 text-purple-800">Identitas Diri</h2>
+      <div class="text-lg text-left space-y-2">
+  <p>Nama lengkap: REZA ARDANA ROHMAN</p>
+  <p>Kontak   : 083150780563</p>
+  <p>Alamat   : DSN DANGULUNG,DESA MOJOAGUNG,RT 001,RW 002,KEC SOKO,KAB TUBAN</p>
+  <p>instagram: ardana815</p>
+  <p>linkedin : REZA ARDANA ROHMAN</p>
+</div>
+
+    </div>
+  </section>
+
+  <section id="ringkasan" class="py-20 bg-gray-100 text-gray-800">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4 text-purple-800">Ringkasan Profesional</h2>
+      <div class="text-lg text-left space-y-2">
+  <p>ELECTRICAL ENGINEERING</p>
+  <p>ELECTICAL Sub Divisi pada organisasi DEWO ROBOTIC</p>
+    </div>
+  </section>
+
+  <section id="pendidikan" class="py-20 bg-white text-gray-800">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4 text-purple-800">Pendidikan</h2>
+      <div class="text-lg text-left space-y-2">
+  <p>Universitas Negeri Surabaya,S1 • Teknik Elektro • IPK 3.69</p>
+  <p>SMAN 4 BOJONEGORO, Ilmu Pengetahuan Alam (IPA), Nilai rata-rata: 89.17</p>
+  
+</div>
+
+  </section>
+
+
+  <section id="keterampilan" class="py-20 bg-white text-gray-800">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4 text-purple-800">Keterampilan</h2>
+      <p class="text-lg">Easyeda,,Arduino IDE,VSCode,Proteus,Multisism,3D Desain, 3D Printing, Troubleshooting, Data analysis tools (SPSS, R), AutoCAD, C++, IoT (Internet of Things), Desain Prototipe, Python, Robotika, Kepemimpinan Tim, Gambar Teknik, Analisis data (SPSS, R), Microsoft Office (Word, Excel,Power Point), Robotika dan otomatisasi.</p>
+    </div>
+  </section>
+
+</body>
+</html>
+
+
+  
+  
+
   <!-- Projects Section -->
-  <section id="projects" class="py-20 bg-gray-50">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-3xl font-bold text-center mb-12">Proyek Saya</h2>
+  <section id="projects" class="py-20 bg-gradient-to-br from-pink-100 via-rose-200 to-pink-50 relative overflow-hidden">
+    <div class="absolute w-96 h-96 bg-white opacity-10 rounded-full -bottom-20 -left-20 animate-ping"></div>
+    <div class="max-w-6xl mx-auto relative z-10">
+      <h2 class="text-4xl font-extrabold text-center mb-12 text-pink-700">Proyek Saya</h2>
+ 
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        <!-- Project Card 1 -->
-        <div class="bg-white rounded-xl shadow p-6 hover:shadow-xl transition">
-          <h3 class="text-xl font-semibold mb-2">Smart IoT Parking</h3>
-          <p class="text-gray-600 mb-4">prototype parkir cerdas dengan memanfaatkan sensor ultrasonik untuk otomatisasi palang masuk,dan pendataan jumlah kendaraan dengan web.</p>
-          <a href="#" class="text-blue-600 hover:underline">Detail Proyek</a>
+        <!-- Project Card -->
+        <div class="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl p-6 hover:scale-105 hover:shadow-2xl transition transform">
+          <h3 class="text-2xl font-bold mb-3 text-fuchsia-700">SMART IOT PARKING</h3>
+          <p class="text-gray-700 mb-4">Prototype parkir cerdas dengan sensor ultrasonik untuk otomatisasi palang dan pendataan kendaraan berbasis web.</p>
+          <a href="smart_iot_parking.html" class="inline-block px-4 py-2 bg-fuchsia-600 text-white rounded-full hover:bg-fuchsia-700 transition">Detail Proyek</a>
         </div>
-        <!-- Project Card 2 -->
-        <div class="bg-white rounded-xl shadow p-6 hover:shadow-xl transition">
-          <h3 class="text-xl font-semibold mb-2">Robot Penari ESP32</h3>
-          <p class="text-gray-600 mb-4">Robot penari yang sinkron dengan musik menggunakan komunikasi ESP-NOW.</p>
-          <a href="#" class="text-blue-600 hover:underline">Detail Proyek</a>
+
+        <!-- Project Card -->
+        <div class="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl p-6 hover:scale-105 hover:shadow-2xl transition transform">
+          <h3 class="text-2xl font-bold mb-3 text-rose-700">ROBOT PENARI </h3>
+          <p class="text-gray-700 mb-4">Robot penari yang sinkron dengan musik menggunakan komunikasi ESP-NOW.</p>
+          <a href="robot_tari.html" class="inline-block px-4 py-2 bg-rose-600 text-white rounded-full hover:bg-rose-700 transition">Detail Proyek</a>
         </div>
-        <!-- Tambahkan projek lainnya di sini -->
+
+        <!-- Project Card -->
+        <div class="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl p-6 hover:scale-105 hover:shadow-2xl transition transform">
+          <h3 class="text-2xl font-bold mb-3 text-amber-700">DENAH INSTALASI LISTRIK RUMAH</h3>
+          <p class="text-gray-700 mb-4">Perancangan denah instalasi listrik rumah untuk kebutuhan proyek kelistrikan.</p>
+          <a href="instalasi_listrik.html" class="inline-block px-4 py-2 bg-amber-600 text-white rounded-full hover:bg-amber-700 transition">Detail Proyek</a>
+        </div>
+        <!-- Project Card -->
+        <div class="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl p-6 hover:scale-105 hover:shadow-2xl transition transform">
+          <h3 class="text-2xl font-bold mb-3 text-rose-700">3D DESAIN </h3>
+          <p class="text-gray-700 mb-4">Robot penari yang sinkron dengan musik menggunakan komunikasi ESP-NOW.</p>
+          <a href="coverpcb.html" class="inline-block px-4 py-2 bg-rose-600 text-white rounded-full hover:bg-rose-700 transition">Detail Proyek</a>
+        </div>
+        <!-- Project Card -->
+        <div class="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl p-6 hover:scale-105 hover:shadow-2xl transition transform">
+          <h3 class="text-2xl font-bold mb-3 text-rose-700">EMBEDDED SYSTEM </h3>
+          <p class="text-gray-700 mb-4">Robot penari yang sinkron dengan musik menggunakan komunikasi ESP-NOW.</p>
+          <a href="EMBEDDED.html" class="inline-block px-4 py-2 bg-rose-600 text-white rounded-full hover:bg-rose-700 transition">Detail Proyek</a>
+        </div>
+        <!-- Project Card -->
+        <div class="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl p-6 hover:scale-105 hover:shadow-2xl transition transform">
+          <h3 class="text-2xl font-bold mb-3 text-rose-700">TRAINER TRAFIC LIGHT </h3>
+          <p class="text-gray-700 mb-4">Robot penari yang sinkron dengan musik menggunakan komunikasi ESP-NOW.</p>
+          <a href="trainerlampulalulintas.html" class="inline-block px-4 py-2 bg-rose-600 text-white rounded-full hover:bg-rose-700 transition">Detail Proyek</a>
+        </div>
+        <!-- Project Card -->
+        <div class="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl p-6 hover:scale-105 hover:shadow-2xl transition transform">
+          <h3 class="text-2xl font-bold mb-3 text-rose-700">ROBOT LINE TRACER ANALOG </h3>
+          <p class="text-gray-700 mb-4">Pembuatan robot line tracer analog.</p>
+          <a href="linetracer.html" class="inline-block px-4 py-2 bg-rose-600 text-white rounded-full hover:bg-rose-700 transition">Detail Proyek</a>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="py-20 bg-white">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-6">Hubungi Saya</h2>
+  <section id="contact" class="py-20 bg-gradient-to-br from-cyan-200 via-blue-200 to-cyan-50 text-gray-800 relative overflow-hidden">
+    <div class="absolute w-56 h-56 bg-white opacity-20 rounded-full -top-10 left-20 animate-pulse"></div>
+    <div class="max-w-4xl mx-auto text-center relative z-10">
+      <h2 class="text-4xl font-extrabold mb-6 text-cyan-800">Hubungi Saya</h2>
       <p class="text-lg mb-4">Ingin bekerja sama atau butuh info lebih lanjut? Silakan hubungi saya melalui email:</p>
-      <a href="mailto:emailkamu@gmail.com" class="inline-block px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">ardanaaa815@gmail.com</a>
+      <a href="mailto:ardanaaa815@gmail.com" class="inline-block px-8 py-4 bg-cyan-600 text-white text-lg rounded-full hover:bg-cyan-700 transition shadow">ardanaaa815@gmail.com</a>
     </div>
   </section>
 
-  <footer class="py-6 bg-gray-200 text-center text-gray-700">
+  <footer class="py-6 bg-gradient-to-r from-gray-300 via-gray-400 to-gray-500 text-center text-gray-900 font-bold">
     &copy; 2025 Reza Ardana Rohman. All rights reserved.
   </footer>
 
