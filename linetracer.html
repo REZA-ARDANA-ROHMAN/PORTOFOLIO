@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ROBOT LINE TRACER ANALOG - Detail Proyek</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-sky-100 via-white to-sky-200 font-sans min-h-screen flex flex-col items-center p-8">
+
+  <!-- Judul -->
+  <h1 class="text-4xl md:text-5xl font-extrabold mb-8 text-blue-800 drop-shadow text-center">
+    ROBOT LINE TRACER ANALOG
+  </h1>
+
+  <!-- Deskripsi -->
+  <div class="max-w-3xl w-full bg-white/80 backdrop-blur-md rounded-3xl shadow-xl p-8 mb-12 text-left space-y-6">
+    <p class="text-lg text-gray-800 leading-relaxed">
+      Proyek ini merupakan perancangan dan pembuatan <span class="font-bold text-blue-700">robot line tracer analog</span>, yaitu robot yang dapat mengikuti jalur garis hitam pada permukaan putih secara otomatis tanpa mikrokontroler atau sistem digital. Robot ini dirancang dengan rangkaian elektronika analog berbasis sensor LDR (Light Dependent Resistor) atau fototransistor, yang mendeteksi kontras antara garis dan latar.
+    </p>
+    <p class="text-lg text-gray-800 leading-relaxed">
+      Sistem kontrol robot bekerja dengan prinsip pembandingan tegangan (comparator) yang menggerakkan motor DC kiri dan kanan secara independen. Ketika sensor mendeteksi penyimpangan dari jalur garis, rangkaian analog secara otomatis menyesuaikan kecepatan motor agar robot kembali ke jalur.
+    </p>
+    <p class="text-lg text-gray-800 leading-relaxed">
+      Desain ini memungkinkan robot bergerak lincah dan responsif mengikuti pola garis dengan sudut belok yang bervariasi.
+    </p>
+    <ul class="list-disc list-inside text-lg text-gray-800 leading-relaxed space-y-2">
+      <li>Desain sirkuit analog dengan komponen sederhana seperti LDR, op-amp, resistor, dan transistor.</li>
+      <li>Perakitan rangkaian pada PCB manual.</li>
+      <li>Kalibrasi sensor untuk menyesuaikan sensitivitas deteksi garis pada berbagai kondisi pencahayaan.</li>
+      <li>Pengujian performa robot pada lintasan dengan tikungan dan percabangan.</li>
+    </ul>
+    <p class="text-lg text-gray-800 leading-relaxed">
+      Melalui proyek ini, saya memperdalam pemahaman tentang kontrol dasar robotika, sistem sensor analog, dan teknik stabilisasi gerak tanpa mikrokontroler, yang menjadi dasar penting sebelum mengembangkan sistem robot berbasis digital.
+    </p>
+  </div>
+
+  <!-- Grid Media -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl w-full mb-12">
+    <!-- Video 1 -->
+    <div class="bg-white rounded-3xl shadow-xl overflow-hidden hover:scale-105 transition-transform duration-500 ease-in-out">
+      <video controls class="w-full rounded-xl shadow border-4 border-gray-300">
+        <source src="tr.mp4" type="video/mp4">
+        Browser tidak mendukung video ini.
+      </video>
+    </div>
+
+    <!-- Gambar 1 -->
+    <div class="bg-white rounded-3xl shadow-xl overflow-hidden hover:scale-105 transition-transform duration-500 ease-in-out">
+      <img src="tracer.jpg" alt="Robot Line Tracer" class="w-full rounded-xl shadow object-cover"/>
+    </div>
+
+    <!-- Gambar 2 -->
+    <div class="bg-white rounded-3xl shadow-xl overflow-hidden hover:scale-105 transition-transform duration-500 ease-in-out">
+      <img src="line.jpg" alt="Lintasan Robot" class="w-full rounded-xl shadow object-cover"/>
+    </div>
+
+    <!-- Video 2 -->
+    <div class="bg-white rounded-3xl shadow-xl overflow-hidden hover:scale-105 transition-transform duration-500 ease-in-out">
+      <video controls class="w-full rounded-xl shadow border-4 border-gray-300">
+        <source src="linetracer.mp4" type="video/mp4">
+        Browser tidak mendukung video ini.
+      </video>
+    </div>
+  </div>
+
+  <!-- Tombol Kembali -->
+  <a href="index.html" class="inline-block px-8 py-4 bg-gradient-to-r from-blue-600 to-sky-500 text-white font-bold rounded-full hover:scale-105 transition-transform duration-300 shadow-lg">
+    Kembali ke Portofolio
+  </a>
+
+</body>
+</html>
